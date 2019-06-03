@@ -1,4 +1,6 @@
 ### Creating the loop uv_loop_t
+###### One can run multiple event loops as long as each runs in a different thread.
+#
 ```c
 #include <stdio.h>
 #include <stdlib.h>
